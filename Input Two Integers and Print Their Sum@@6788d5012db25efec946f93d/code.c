@@ -1,8 +1,7 @@
 #include <stdio.h>
 int main() {
-    float x,y;
-    scanf("%f",&x);
-    scanf("%f",&y);
-    printf("Product: %.2f",x*y);
+    int x,y;
+    scanf("%d %d",&x,&y);
+    printf("Sum: %d", x+y);
     return 0;
 }
