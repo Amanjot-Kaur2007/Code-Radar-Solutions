@@ -1,13 +1,9 @@
 #include <stdio.h>
-
 int main() {
-    char str1[30], str2[30];
-    printf("Enter the first string: ");
-    gets(str1);
-    printf("Enter the second string: ");
-    gets(str2);
-    printf("You entered: %s\n", str1);
-    printf("You entered: %s\n", str2);
-
+    char st1[30], st2[30];
+    scanf("%s",&st1);
+    printf("You entered: %s", st1);
+    scanf("%s",&st2);
+    printf("You entered: %s", st2);
     return 0;
 }
