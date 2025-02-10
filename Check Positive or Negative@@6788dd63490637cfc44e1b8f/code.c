@@ -6,8 +6,11 @@ int main() {
     scanf("%d", &num);
     if (num > 0) {
         printf("Positive", num);
-    } else (num < 0) {
+    } else if (num < 0) {
         printf("Negative", num);
+    } else {
+        printf("The number is zero.\n");
+    }
 
     return 0;
 }
