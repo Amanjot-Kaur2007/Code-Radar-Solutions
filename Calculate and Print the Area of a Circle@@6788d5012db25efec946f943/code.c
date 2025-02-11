@@ -3,10 +3,10 @@
 
 int main() {
     double radius, area;
-    printf("Enter the radius of the circle: ");
+    printf("");
     scanf("%lf", &radius);
     area = PI * radius * radius;
-    printf("The area of the circle is: %lf\n", area);
+    printf("Area", area);
 
     return 0;
 }
