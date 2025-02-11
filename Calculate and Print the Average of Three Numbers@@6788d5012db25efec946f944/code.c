@@ -5,7 +5,7 @@ int main() {
     printf("");
     scanf("%f %f %f", &num1, &num2, &num3);
     average = (num1 + num2 + num3) / 3.0;
-    printf("Average: %f\n", average);
+    printf("Average: ", average);
 
     return 0;
 }
