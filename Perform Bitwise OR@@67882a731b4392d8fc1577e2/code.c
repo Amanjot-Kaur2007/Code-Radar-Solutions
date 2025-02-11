@@ -8,7 +8,7 @@ int main() {
     printf("");
     scanf("%d", &num2);
     result = num1 | num2;
-    printf("", num1, num2, result);
+    printf("%d\n", num1, num2, result);
 
     return 0;
 }
