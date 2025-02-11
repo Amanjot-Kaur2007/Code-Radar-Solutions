@@ -3,8 +3,8 @@
 int main() {
     double num;
     printf("");
-    scanf("%f", &num);
-    printf("You entered: %f\n", num);
+    scanf("%g", &num);
+    printf("You entered: %g\n", num);
 
     return 0;
 }
