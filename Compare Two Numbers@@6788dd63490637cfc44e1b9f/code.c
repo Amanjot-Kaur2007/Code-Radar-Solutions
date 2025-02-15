@@ -12,5 +12,5 @@ int main(){
     else{
         printf("Second");
     }
-    rteurn 0;
+    return 0;
 }
