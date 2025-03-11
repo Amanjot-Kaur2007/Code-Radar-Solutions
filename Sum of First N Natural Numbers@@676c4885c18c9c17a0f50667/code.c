@@ -3,6 +3,9 @@
 int main() {
     int n, sum = 0;
     scanf("%d", &n);
+    if(n==0){
+        return 0;
+    }
     if (n<1){
         return 1;
     }
