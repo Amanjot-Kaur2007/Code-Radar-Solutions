@@ -11,7 +11,7 @@ void insertionSort(int n, int arr[]){
     }
 }
 void printArray(int n, int arr[]){
-    fr(int i=0;i<n;i++){
+    for(int i=0;i<n;i++){
         printf("%d ",&n);
     }
     printf("\n");
